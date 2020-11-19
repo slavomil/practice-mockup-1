@@ -14,7 +14,8 @@ body {
 }
 
 header {
-	background: url(img/bridge.png);
+	background-image: url(img/bridge.png);
+	background-color: #404149;
 	padding-bottom: 320px;
 	padding-top: 20px;
 }
