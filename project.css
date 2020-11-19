@@ -1,0 +1,455 @@
+.container {
+	max-width: 1100px;
+	padding: 0 16px;
+	margin: 0 auto;
+}
+
+html {
+	font-family: 'Oswald', sans-serif;
+	line-height: 1.5;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	background: url(img/bridge.png);
+	padding-bottom: 320px;
+	padding-top: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	margin: 0;
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+.heading {
+	font-size: 64px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	max-width: 734px;
+}
+
+.main-heading {
+	margin-top: 102px;
+	margin-bottom: 35px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.menu {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.subheading {
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.guarantee {
+	display: flex;
+	padding: 0;
+	text-align: center;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background-color: #F7F7F7;
+	transform: translateY(-150px); 
+}
+
+.years-count {
+	color: #F7654A;
+	font-size: 72px;
+}
+
+.years {
+	color: #000;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+.achievement {
+	color: #999999;
+	font-size: 18px;
+}
+
+.projects-heading {
+	text-transform: uppercase;
+	font-size: 36px;
+	color: #404149;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 100px;
+}
+
+.projects-list {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
+}
+
+.project-heading {
+	color: #404149;
+	font-size: 24px;
+	margin-top: 15px;
+}
+
+.project-description {
+	color: #999999;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+.project-image {
+	height: 380px;
+}
+
+.project {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+	max-width: 345px;
+}
+
+.fact {
+	margin-top: 57px;
+	margin-bottom: 57px;
+	text-align: center;
+	min-width: 200px;
+	list-style-type: none;
+}
+
+.redrect {
+	margin-top: 45px;
+	display: block;
+}
+
+.burger {
+	background: none;
+	border: none;
+	max-width: 50px;
+	max-height: 50px;
+	display: block;
+	padding: 0;
+}
+
+.applications-container {
+	background-color: #F7654A;
+	margin-top: 150px;
+}
+
+.to-application-form {
+	background-color: #FFF;
+	border: none;
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	padding: 14px 30px;
+}
+
+.application {
+	display: inline-block;
+	margin-left: 15px;
+	text-transform: uppercase;
+	margin-block-end: 0;
+	margin-block-start: 0;
+}
+
+.image-in-application-link {
+	display: inline-block;
+}
+
+.advantages {
+	display: inline-block;
+	margin-block-end: 0;
+	margin-block-start: 0;
+}
+
+.offers {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	margin-top: 66px;
+	flex-wrap: wrap;
+}
+
+.offer-image {
+	margin-bottom: 30px;
+}
+
+.offer-text {
+	font-size: 21px;
+	margin-top: 30px;
+	text-align: center;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	text-transform: uppercase;
+	max-width: 172px;
+}
+
+.offer {
+	background-color: #F7F7F7;
+	max-width: 345px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding: 59px 80px;
+}
+
+.offers-heading {
+	font-size: 36px;
+	margin-top: 150px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.questions {
+	padding: 10px;
+}
+
+.questions-heading {
+	margin-bottom: 50px;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 150px;
+	text-transform: uppercase;
+}
+
+.question {
+	color: #F7654A;
+	text-transform: uppercase;
+}
+
+.question:not(:first-of-type) {
+	margin-top: 30px;
+}
+
+.answer {
+	color: #999999;
+	max-width: 730px;
+	font-weight: normal;
+	text-transform: none;
+}
+
+.partners-logotypes {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 60px;
+	justify-content: center;
+	align-content: space-between;
+}
+
+.partners {
+	background-color: #404149;
+	margin-top: 150px;
+	padding: 100px 0;
+}
+
+.partners-heading {
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 60px;
+	font-size: 36px;
+	color: #FFF;
+}
+
+.partner-logo {
+	max-width: 170px;
+}
+
+.reviews-heading {
+	text-align: center;
+	margin-top: 150px;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+.reviews {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-top: 64px;
+}
+
+.quote {
+	max-width: 345px;
+	margin-block-end: 0;
+	margin-block-start: 0;
+	margin-inline-end: 0;
+	margin-inline-start: 0;
+}
+
+.quote-content {
+	background-color: #F7F7F7;
+	max-width: 345px;
+	padding: 30px;
+}
+
+.quote-text {
+	font-size: 14px;
+	color: gray;
+}
+
+cite {
+	font-style: normal;
+}
+
+.author {
+	font-size: 21px;
+	display: inline-block;
+	margin: 0;
+	margin-top: 30px;
+	padding: 0;
+}
+
+.object {
+	font-size: 21px;
+	color: #F7654A;
+	margin-top: 30px;
+}
+
+.work-and-applications {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px;
+	padding: 30px 0 45px 0;
+}
+
+.work-ask {
+	font-size: 48px;
+	color: #FFF;
+	margin-left: 0;
+	margin-block-end: 0;
+	margin-block-start: 0;
+	text-transform: uppercase;
+}
+
+.work-answer {
+	font-size: 24px;
+	margin-block-end: 0;
+	margin-block-start: 0;
+	color: #FFF;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.work {
+	display: inline-block;
+	margin-block-end: 0;
+	margin-block-start: 0;
+}
+
+.contacts-heading {
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.contacts {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	max-width: 255px;
+	margin: 60px 0;
+	min-width: 255px;
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.contact-heading {
+	color: #999;
+	margin-top: 36px;
+	margin-block-end: 0;
+}
+
+.block-reset {
+	display: block;
+	margin-block-end: 0;
+	margin-block-start: 0;
+}
+
+footer {
+	background-color: #404149;
+	margin-top: 150px;
+	padding: 30px 0;
+}
+
+.flex-container {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.footer-text {
+	display: inline;
+	color: white;
+	font-size: 16px;
+	margin-block-end: 0;
+	margin-block-start: 0;
+	font-family: sans-serif;
+}
+
+.burger-image {
+	display: block;
+}
+
+.logo {
+	padding: 10px;
+}
+
+a:not(.to-application-form) {
+	color: #F7654A;
+}
+
+img,
+svg {
+	max-width: 100%;
+	height: auto;
+}
+
+.img-in-contacts {
+	min-height: 50px;
+}
+
+.contact-content-container {
+	margin-top: 25px;
+}
